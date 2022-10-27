@@ -188,6 +188,8 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
+  padding: 0;
+  margin: 0;
 }
 
 .table__text {
@@ -204,7 +206,7 @@
   background-repeat: no-repeat;
   background-position: bottom 0 left 0;
   position: relative;
-  z-index: -1;
+  z-index: 0;
   background-color: #f2f2f2;
 }
 
@@ -239,7 +241,7 @@
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
-  height: 50%;
+  top: 50%;
   right: 48px;
   color: #2f80ed;
 }
@@ -318,7 +320,7 @@
   justify-content: space-between;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   top: 30px;
   left: 64px;
   width: 228px;
