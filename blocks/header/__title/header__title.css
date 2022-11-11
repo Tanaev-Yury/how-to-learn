@@ -1,0 +1,10 @@
+.header__title {
+  line-height: 96px;
+  font-weight: 600;
+  font-size: 102px;
+  width: 100%;
+  max-width: 730px;
+  margin: 0;
+  margin-left: 64px;
+  z-index: 1;    /* В первом брифе указано, что элемент должен быть поверх остальных, поэтому z-index оставил */
+}
