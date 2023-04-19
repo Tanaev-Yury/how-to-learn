@@ -1,0 +1,9 @@
+.video__iframe:nth-child(1){
+  margin-right: 20px;
+}
+
+.video__iframe {
+  min-width: 515px;
+  min-height: 316px;
+  box-sizing: border-box;
+}
